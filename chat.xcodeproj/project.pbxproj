@@ -3,18 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		125E3D1F24C864A5003B1B7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 125E3D1E24C864A5003B1B7B /* AppDelegate.m */; };
 		125E3D2224C864A5003B1B7B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 125E3D2124C864A5003B1B7B /* SceneDelegate.m */; };
-		125E3D2524C864A5003B1B7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125E3D2424C864A5003B1B7B /* ViewController.m */; };
 		125E3D2824C864A5003B1B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125E3D2624C864A5003B1B7B /* Main.storyboard */; };
 		125E3D2A24C864A5003B1B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125E3D2924C864A5003B1B7B /* Assets.xcassets */; };
 		125E3D2D24C864A5003B1B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125E3D2B24C864A5003B1B7B /* LaunchScreen.storyboard */; };
 		125E3D3024C864A5003B1B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 125E3D2F24C864A5003B1B7B /* main.m */; };
+		12A543CC24C865B800001DC5 /* LoginC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A543CB24C865B800001DC5 /* LoginC.m */; };
+		12A543D624C86A1000001DC5 /* myC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A543D524C86A1000001DC5 /* myC.m */; };
+		12A543D924C86BF500001DC5 /* tabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A543D824C86BF500001DC5 /* tabbar.m */; };
+		12A543DC24C86FAA00001DC5 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A543DB24C86FAA00001DC5 /* TestViewController.m */; };
+		12A543E024C8823900001DC5 /* HomeC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A543DF24C8823900001DC5 /* HomeC.m */; };
+		12A543E424C8825B00001DC5 /* MyC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A543E324C8825B00001DC5 /* MyC.m */; };
+		AE2A51E310EAD10BC398160D /* Pods_chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7043B9ECA193B491EEC95F7B /* Pods_chat.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12A543C124C8658800001DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A543BA24C8658800001DC5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FFED36A657123030ABB700256D73F15;
+			remoteInfo = Masonry;
+		};
+		12A543C324C8658800001DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A543BA24C8658800001DC5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 38EF19BB9C7CB5A31A5F65BF7AF11539;
+			remoteInfo = "Pods-chat";
+		};
+		12A543C524C8658800001DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A543BA24C8658800001DC5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50C0B0879B7086918A819F704BF40B4B;
+			remoteInfo = "Socket.IO-Client-Swift";
+		};
+		12A543C724C8658800001DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A543BA24C8658800001DC5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 891B2270823847ED23F2ECFC28F935EC;
+			remoteInfo = Starscream;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		125E3D1A24C864A5003B1B7B /* chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,13 +59,27 @@
 		125E3D1E24C864A5003B1B7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		125E3D2024C864A5003B1B7B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		125E3D2124C864A5003B1B7B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		125E3D2324C864A5003B1B7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		125E3D2424C864A5003B1B7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		125E3D2724C864A5003B1B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		125E3D2924C864A5003B1B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		125E3D2C24C864A5003B1B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		125E3D2E24C864A5003B1B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		125E3D2F24C864A5003B1B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12A543BA24C8658800001DC5 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		12A543CA24C865B800001DC5 /* LoginC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginC.h; sourceTree = "<group>"; };
+		12A543CB24C865B800001DC5 /* LoginC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginC.m; sourceTree = "<group>"; };
+		12A543D424C86A1000001DC5 /* myC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myC.h; sourceTree = "<group>"; };
+		12A543D524C86A1000001DC5 /* myC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myC.m; sourceTree = "<group>"; };
+		12A543D724C86BF500001DC5 /* tabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tabbar.h; sourceTree = "<group>"; };
+		12A543D824C86BF500001DC5 /* tabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabbar.m; sourceTree = "<group>"; };
+		12A543DA24C86FAA00001DC5 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		12A543DB24C86FAA00001DC5 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		12A543DE24C8823900001DC5 /* HomeC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeC.h; sourceTree = "<group>"; };
+		12A543DF24C8823900001DC5 /* HomeC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeC.m; sourceTree = "<group>"; };
+		12A543E224C8825B00001DC5 /* MyC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyC.h; sourceTree = "<group>"; };
+		12A543E324C8825B00001DC5 /* MyC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyC.m; sourceTree = "<group>"; };
+		7043B9ECA193B491EEC95F7B /* Pods_chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8772744DCFBE8528229584AD /* Pods-chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chat.release.xcconfig"; path = "Target Support Files/Pods-chat/Pods-chat.release.xcconfig"; sourceTree = "<group>"; };
+		F7C84AA7124989CE8914BD80 /* Pods-chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chat.debug.xcconfig"; path = "Target Support Files/Pods-chat/Pods-chat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +87,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2A51E310EAD10BC398160D /* Pods_chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		068C7481CD92FDE00E1EE7DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7C84AA7124989CE8914BD80 /* Pods-chat.debug.xcconfig */,
+				8772744DCFBE8528229584AD /* Pods-chat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		125E3D1124C864A5003B1B7B = {
 			isa = PBXGroup;
 			children = (
 				125E3D1C24C864A5003B1B7B /* chat */,
 				125E3D1B24C864A5003B1B7B /* Products */,
+				068C7481CD92FDE00E1EE7DD /* Pods */,
+				801DE3A27463C788912FF9B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +124,81 @@
 		125E3D1C24C864A5003B1B7B /* chat */ = {
 			isa = PBXGroup;
 			children = (
+				12A543DD24C8820F00001DC5 /* home */,
+				12A543C924C8659B00001DC5 /* login */,
+				12A543CD24C8694400001DC5 /* tab */,
+				12A543E124C8823F00001DC5 /* my */,
 				125E3D1D24C864A5003B1B7B /* AppDelegate.h */,
 				125E3D1E24C864A5003B1B7B /* AppDelegate.m */,
 				125E3D2024C864A5003B1B7B /* SceneDelegate.h */,
 				125E3D2124C864A5003B1B7B /* SceneDelegate.m */,
-				125E3D2324C864A5003B1B7B /* ViewController.h */,
-				125E3D2424C864A5003B1B7B /* ViewController.m */,
 				125E3D2624C864A5003B1B7B /* Main.storyboard */,
 				125E3D2924C864A5003B1B7B /* Assets.xcassets */,
+				12A543D424C86A1000001DC5 /* myC.h */,
+				12A543D524C86A1000001DC5 /* myC.m */,
+				12A543DA24C86FAA00001DC5 /* TestViewController.h */,
+				12A543DB24C86FAA00001DC5 /* TestViewController.m */,
 				125E3D2B24C864A5003B1B7B /* LaunchScreen.storyboard */,
 				125E3D2E24C864A5003B1B7B /* Info.plist */,
 				125E3D2F24C864A5003B1B7B /* main.m */,
 			);
 			path = chat;
+			sourceTree = "<group>";
+		};
+		12A543BB24C8658800001DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12A543C224C8658800001DC5 /* Masonry.framework */,
+				12A543C424C8658800001DC5 /* Pods_chat.framework */,
+				12A543C624C8658800001DC5 /* SocketIO.framework */,
+				12A543C824C8658800001DC5 /* Starscream.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12A543C924C8659B00001DC5 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				12A543CA24C865B800001DC5 /* LoginC.h */,
+				12A543CB24C865B800001DC5 /* LoginC.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		12A543CD24C8694400001DC5 /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				12A543D724C86BF500001DC5 /* tabbar.h */,
+				12A543D824C86BF500001DC5 /* tabbar.m */,
+			);
+			path = tab;
+			sourceTree = "<group>";
+		};
+		12A543DD24C8820F00001DC5 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				12A543DE24C8823900001DC5 /* HomeC.h */,
+				12A543DF24C8823900001DC5 /* HomeC.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		12A543E124C8823F00001DC5 /* my */ = {
+			isa = PBXGroup;
+			children = (
+				12A543E224C8825B00001DC5 /* MyC.h */,
+				12A543E324C8825B00001DC5 /* MyC.m */,
+			);
+			path = my;
+			sourceTree = "<group>";
+		};
+		801DE3A27463C788912FF9B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12A543BA24C8658800001DC5 /* Pods.xcodeproj */,
+				7043B9ECA193B491EEC95F7B /* Pods_chat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 125E3D3324C864A5003B1B7B /* Build configuration list for PBXNativeTarget "chat" */;
 			buildPhases = (
+				8E61C25C45EC22F03305B62D /* [CP] Check Pods Manifest.lock */,
 				125E3D1624C864A5003B1B7B /* Sources */,
 				125E3D1724C864A5003B1B7B /* Frameworks */,
 				125E3D1824C864A5003B1B7B /* Resources */,
+				700FA8CFACF8A60E4862E46E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,12 +248,49 @@
 			mainGroup = 125E3D1124C864A5003B1B7B;
 			productRefGroup = 125E3D1B24C864A5003B1B7B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 12A543BB24C8658800001DC5 /* Products */;
+					ProjectRef = 12A543BA24C8658800001DC5 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				125E3D1924C864A5003B1B7B /* chat */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		12A543C224C8658800001DC5 /* Masonry.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Masonry.framework;
+			remoteRef = 12A543C124C8658800001DC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		12A543C424C8658800001DC5 /* Pods_chat.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_chat.framework;
+			remoteRef = 12A543C324C8658800001DC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		12A543C624C8658800001DC5 /* SocketIO.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketIO.framework;
+			remoteRef = 12A543C524C8658800001DC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		12A543C824C8658800001DC5 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 12A543C724C8658800001DC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		125E3D1824C864A5003B1B7B /* Resources */ = {
@@ -141,15 +305,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		700FA8CFACF8A60E4862E46E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chat/Pods-chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chat/Pods-chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chat/Pods-chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E61C25C45EC22F03305B62D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		125E3D1624C864A5003B1B7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				125E3D2524C864A5003B1B7B /* ViewController.m in Sources */,
 				125E3D1F24C864A5003B1B7B /* AppDelegate.m in Sources */,
+				12A543CC24C865B800001DC5 /* LoginC.m in Sources */,
+				12A543DC24C86FAA00001DC5 /* TestViewController.m in Sources */,
+				12A543E424C8825B00001DC5 /* MyC.m in Sources */,
 				125E3D3024C864A5003B1B7B /* main.m in Sources */,
+				12A543D624C86A1000001DC5 /* myC.m in Sources */,
 				125E3D2224C864A5003B1B7B /* SceneDelegate.m in Sources */,
+				12A543E024C8823900001DC5 /* HomeC.m in Sources */,
+				12A543D924C86BF500001DC5 /* tabbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +498,7 @@
 		};
 		125E3D3424C864A5003B1B7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C84AA7124989CE8914BD80 /* Pods-chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +516,7 @@
 		};
 		125E3D3524C864A5003B1B7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8772744DCFBE8528229584AD /* Pods-chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

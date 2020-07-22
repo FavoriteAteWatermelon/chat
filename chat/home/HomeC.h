@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeC.h
 //  chat
 //
 //  Created by s on 2020/7/22.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface HomeC : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
